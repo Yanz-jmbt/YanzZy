@@ -1,0 +1,19 @@
+{
+  "name": "wa-bot-termux",
+  "version": "1.0.0",
+  "description": "Base WhatsApp bot for Termux using Baileys",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev":   "node --watch index.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "termux"],
+  "author": "Your-Name",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^8.3.0",
+    "pino": "^9.2.0",
+    "dotenv": "^16.4.1"
+  }
+}
